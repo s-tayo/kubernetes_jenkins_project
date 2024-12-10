@@ -20,4 +20,4 @@ RUN rm -rf photogenic photogenic.zip
 
 CMD [“/usr/sbin/httpd”, ”-D”, ”FOREGROUND”]
 
-EXPOSED 80
+EXPOSED 80 443
